@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import SimpleCounter from './SimpleCounter'
-function App() {
-  const [count, setCount] = useState(0)
+import SwansonQuote from './SwansonQuote'
 
+function App() {
   return (
     <>
-      <SimpleCounter/>
+      {/* <SimpleCounter/> */}
+      <SwansonQuote/>
     </>
   )
 }
